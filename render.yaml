@@ -1,5 +1,0 @@
-services:
-  -type: web
-  name: example-api
-  runtime: docker
-  dockerfilePath: ./api-basica/Dockerfile
