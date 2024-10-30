@@ -4,7 +4,7 @@ const app = express();
 app.get("/", function(req, res) {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-    return res.send("Hola Clase!!!");
+    return res.send("Hola Manu!!!");
 });
 
 app.listen(3000, function(){
